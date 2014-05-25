@@ -51,28 +51,6 @@ jQuery(function()
         }
         return false;
     });
-    jQuery.fn.anchorAnimate = function(settings) {
-        settings = jQuery.extend({
-            speed : 1100
-        }, settings);	
-        return this.each(function(){
-            var caller = this
-            $(caller).click(function (event){
-                event.preventDefault();
-                var locationHref = window.location.href;
-                var elementClick = $(caller).attr("href");
-                var destination = $(elementClick).offset().top ;
-                $("#menu_mobile_list").fadeOut() ;
-                $("html,body").stop().animate({ scrollTop: destination}, settings.speed, function(){
-                    // Detect if pushState is available
-                    if(history.pushState) {
-                        history.pushState(null, null, elementClick);
-                    }
-                });
-                return false;
-            });
-        });
-    }
     //animate scroll function calll
     $("#mobile_menu a").anchorAnimate();
     //main menu auto select and animate scroll
