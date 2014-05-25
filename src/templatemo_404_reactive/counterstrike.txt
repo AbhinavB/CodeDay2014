@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <!--[if IE]><meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"><![endif]-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hack Boy</title>
+    <meta name="description" content="Reactive HTML5 Template features camera jQuery slider, events, pricing, blog, and contact sections." />
+    <meta name="author" content="Bhat, Bam, Pem Sak, PJ">
+    <!-- Favicon-->
+    <link rel="shortcut icon" href="images/logo.png" />		
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!-- Camera -->
+    <link href="css/camera.css" rel="stylesheet">
+    <!-- Template  -->
+    <link href="css/templatemo_style.css" rel="stylesheet">
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+<body>
+    
+  
+    <div id="templatemo_banner_top" class="container_wapper">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8">
+                    <p><a href="#">Hack Boy</a> | <a href="#">The largest database for all gaming</a></p>
+                </div>
+                <div class="col-md-4">
+                    <p class="right"><a href="#">User Login</a> <span class="glyphicon glyphicon-user"></span></p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="templatemo_banner_logo" class="container_wapper">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12 col-md-8 col-md-offset-4">
+                    <img src="images/locklogo.jpg" alt="logo" />
+                    <h1><a href="therealindex.html">Hack Boy</a></h1><br /><br /><br />
+                    <span>Your Free Guide to Video Game Victory</span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="templatemo_banner_slide" class="container_wapper">
+        <div class="camera_wrap camera_emboss" id="camera_slide">
+            <div data-src="images/banner1.jpg">
+                <div class="camera_caption fadeFromLeft camera_effected">
+                    <div class="container">
+                        <div class="col-md-6">
+                            <h1><b>The Largest Hack Database</b></h1>
+                            <p>Hack Boy provides all the tricks you'll need, allowing you to excel at the games you play. The tips/tricks we offer give you great advantages whether you are playing story mode in Pokemon or battling it out online in multiplayer Call of Duty. We possess a large database of whatever you would possibly need to win a game with style. </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div data-src="images/banner2shooterfps.jpg">
+                <div class="camera_caption fadeFromLeft camera_effected">
+                    <div class="container">
+                        <div class="col-md-6">
+                            <h1><b>FPS (First Person Shooter)</b></h1>
+                            <p>Hack Boy offers FPS tricks for all those hardcore reflex gamers out there. Multiplayer will be a breeze with all the glitches and cheats we show you. Campaign will no longer be a struggle. FPS is a major category in our files. FPS's of all sorts are included in Hack Boy's large database. Try some of the FPS tricks we offer.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div data-src="images/banner3gamepic.jpg">
+                <div class="camera_caption fadeFromLeft camera_effected">
+                    <div class="container">
+                        <div class="col-md-6">
+                            <h1><b>Accommodating for Multiple Platforms</b></h1>
+                            <p>Here at Hack Boy, we are determined to look out for all our gamer friends. Whether you are old school by using a Game Boy Advance or a "Modern" PS3 or Xbox 360 gamer, your hacker needs shall be met. Platforms of all sorts will be included in our database and should definitely be checked out.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div><!-- #camera_wrap_3 -->    
+    </div>
+    <div id="templatemo_main_menu" class="container_wapper hidden-sm hidden-xs">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12">
+                    <ul class="nav nav-justified">
+						<li><a href="therealindex.html">Home</a></li>
+                        <li><a href="PokemonGeneration3.html" target="_self">Pokemon</a></li>
+                        <li><a href="mario.html">Super Mario Bros</a></li>
+                        <li><a href="COD.html" target="_self">Call of Duty</a></li>
+                        <li><a href="#templatemo_blog">Counter Strike</a></li>
+                        <!--<li><a href="#templatemo_contact">The Sims</a></li>-->
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div><!--
+    <div id="templatemo_upcomming_event" class="container_wapper">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12 section_header">
+                    <h1>Events</h1>
+                </div>
+                <div class="col-md-6 col-md-offset-3 col-md-offset-3">
+                    <p>Reactive is <a href="http://www.templatemo.com/page/1">free HTML5 template</a> based on Bootstrap responsive framework. This template features <a href="http://www.pixedelic.com/plugins/camera/">Camera Slideshow</a> for the image slider. Credit goes to <a href="http://unsplash.com" rel="nofollow">Unsplash</a> for photos used in this template. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.</p>
+                </div>
+                <div class="clearfix"></div>
+                <div class="col-sm-6 col-md-3">
+                    <div class="event_box event_animate_left">
+                        <img src="images/event_01.jpg" alt="Event 1" class="img-responsive" />
+                        <ul>
+                            <li>
+                                    <span class="glyphicon glyphicon-calendar"></span>Wednesday<br />
+                                    <span class="glyphicon">&nbsp;</span>3<sup>rd</sup> September 2084<br />
+                            </li>
+                            <li>
+                                    <span class="glyphicon glyphicon-time"></span>Time<br />
+                                    <span class="glyphicon">&nbsp;</span>9:00 AM to 5:00 PM<br />
+                            </li>
+                            <li>
+                                    <span class="glyphicon glyphicon-map-marker"></span>Venue X<br />
+                                    <span class="glyphicon">&nbsp;</span>Lifestyle Mall<br />  
+                                    <span class="glyphicon">&nbsp;</span>Yangon, Myanmar<br />
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-3">
+                    <div class="event_box event_animate_left">
+                        <img src="images/event_02.jpg" alt="Event 2" class="img-responsive" />
+                        <ul>
+                            <li>
+                                    <span class="glyphicon glyphicon-calendar"></span>Thursday<br />
+                                    <span class="glyphicon">&nbsp;</span>7<sup>th</sup> August 2084<br />
+                            </li>
+                            <li>
+                                    <span class="glyphicon glyphicon-time"></span>Time<br />
+                                    <span class="glyphicon">&nbsp;</span>6:30 PM to 9:30 PM<br />
+                            </li>
+                            <li>
+                                    <span class="glyphicon glyphicon-map-marker"></span>New Studio<br />
+                                    <span class="glyphicon">&nbsp;</span>Walking Street<br />  
+                                    <span class="glyphicon">&nbsp;</span>Mandalay, Myanmar<br />
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-3">
+                    <div class="event_box event_animate_right">
+                        <img src="images/event_03.jpg" alt="Event 3" class="img-responsive" />
+                        <ul>
+                            <li>
+                                    <span class="glyphicon glyphicon-calendar"></span>Sunday<br />
+                                    <span class="glyphicon">&nbsp;</span>5<sup>th</sup> July 2084<br />
+                            </li>
+                            <li>
+                                    <span class="glyphicon glyphicon-time"></span>Time<br />
+                                    <span class="glyphicon">&nbsp;</span>10:00 AM ~ 5:00 PM<br />
+                            </li>
+                            <li>
+                                    <span class="glyphicon glyphicon-map-marker"></span>Digital Hall<br />
+                                    <span class="glyphicon">&nbsp;</span>Patong Beach<br />  
+                                    <span class="glyphicon">&nbsp;</span>Phuket, Thailand<br />
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-3">
+                    <div class="event_box event_animate_right">
+                        <img src="images/event_04.jpg" alt="Event 4" class="img-responsive" />
+                        <ul>
+                            <li>
+                                    <span class="glyphicon glyphicon-calendar"></span>Saturday<br />
+                                    <span class="glyphicon">&nbsp;</span>2<sup>nd</sup> June 2084<br />
+                            </li>
+                            <li>
+                                     <span class="glyphicon glyphicon-time"></span>Time<br />
+                                   <span class="glyphicon">&nbsp;</span>11:00 AM to 3:00 PM<br />
+                            </li>
+                            <li>
+                                   <span class="glyphicon glyphicon-map-marker"></span>Open Hall<br />
+                                   <span class="glyphicon">&nbsp;</span>Night Market<br /> 
+                                   <span class="glyphicon">&nbsp;</span>Hua Hin, Thailand<br />
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="templatemo_clear">
+                    <div class="col-xs-6 event_animate_left" id="prev_event_btn">
+                            <p>
+                                <a href="#"><span class="glyphicon glyphicon-chevron-left"></span></a>
+                            </p>
+                    </div>
+                    <div class="col-xs-6 event_animate_right" id="next_event_btn">
+                            <p>
+                                <a href="#"><span class="glyphicon glyphicon-chevron-right"></span></a>
+                            </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="templatemo_pricing" class="container_wapper">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12 section_header">
+                    <h1>Pricing</h1>
+                </div>
+                <div class="clearfix"></div>
+                <div class="col-md-4 pricing_icon_wapper">
+                    <p class="cycle_icon"><span class="glyphicon glyphicon-heart"></span></p>
+                    <div class="clearfix"></div>
+                    <h1>Silver</h1>
+                    <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.</p>
+                </div>
+                <div class="col-md-4 pricing_icon_wapper">
+                    <p class="cycle_icon"><span class="glyphicon glyphicon-phone"></span></p>
+                    <div class="clearfix"></div>
+                    <h1>Gold</h1>
+                    <p>Consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.</p>
+                </div>
+                <div class="col-md-4 pricing_icon_wapper">
+                    <p class="cycle_icon"><span class="glyphicon glyphicon-pencil"></span></p>
+                    <div class="clearfix"></div>
+                    <h1>Platinum</h1>
+                    <p>Nulla a nulla odio. Fusce elit tellus, tempus nec ornare sit amet, placerat nec dolor. Integer justo lacus, dictum non lectus vel, aliquam tempor velit.</p>
+                </div>
+                <div class="clearfix"></div>
+                <div class="col-md-4">
+                    <div class="price_table_box">
+                        <h1>USD 400</h1>
+                        <ul>
+                            <li><span class="glyphicon glyphicon-pencil"></span> Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.</li>
+                            <li><span class="glyphicon glyphicon-download-alt"></span> Excepteur sint occaecat  non proident, sunt in.</li>
+                            <li><span class="glyphicon glyphicon-folder-close"></span> Duis aute irure dolor in reprehenderit in cupidatat voluptate.</li>
+                        </ul>
+                        <div><p><a href="#"><span class="glyphicon glyphicon-shopping-cart"></span> Buy</a></p></div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="price_table_box">
+                        <h1>USD 600</h1>
+                        <ul>
+                            <li><span class="glyphicon glyphicon-pencil"></span> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut lado consequat. </li>
+                            <li><span class="glyphicon glyphicon-download-alt"></span> Duis aute irure dolor in reprehenderit in voluptate.</li>
+                            <li><span class="glyphicon glyphicon-folder-close"></span> Sunt in culpa qui officia deserunt mollit anim id est laborum.</li>
+                        </ul>
+                        <div><p><a href="#"><span class="glyphicon glyphicon-shopping-cart"></span> Buy</a></p></div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="price_table_box">
+                        <h1>USD 800</h1>
+                        <ul>
+                            <li><span class="glyphicon glyphicon-pencil"></span> Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </li>
+                            <li><span class="glyphicon glyphicon-download-alt"></span> Duis aute irure dolor in reprehenderit in voluptate.</li>
+                            <li><span class="glyphicon glyphicon-folder-close"></span> Illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. </li>
+                        </ul>
+                        <div><p><a href="#"><span class="glyphicon glyphicon-shopping-cart"></span> Buy</a></p></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>-->
+    <div id="templatemo_blog" class="container_wapper">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12 section_header">
+                    <h1>Call of Duty</h1>
+                </div>
+                <div class="clearfix"></div>
+                <div class="col-sm-4 event_animate_left">
+                    <img src="./images/BlOps.png" alt="Blog Post 1" class="img-responsive" />
+                </div>
+                <div class="col-sm-8 blog_text event_animate_right">
+                    <h1>Call Of Duty Black Ops Multiplayer Walkthrough</h1>
+                    <p>The online multiplayer on Black Ops is probably the hardest part of the game, since you will be playing against other humans, rather than bots which are not very good at the game or playing objectively. In order to be good at the multiplayer in Black Ops, you need to learn to effectively read your mini-map to always know where your enemies will be so that you can react faster than your enemy. One of the easiest ways to improve how well you play is to be using the guns that kill the fastest. To find more walkthroughs on Black Ops, and information about the guns in multiplayer, go to <a href="http://www.ign.com/wikis/call-of-duty-black-ops" target="_blank">IGN</a>.</p>
+                </div>
+                <div class="clearfix"></div>
+                <div class="col-sm-8 blog_text event_animate_right">
+                    <h1>Glitches on Villa, Hanoi, Array, Launch and Havana</h1>
+                    <p>Here is a great youtube video made by "Chill." from youtube back in 2011. The video shows you how to do glitches in 5 maps from COD Black Ops. Some of the glitches include getting to places on the map that you shouldn't be at, getting off the map, places that can be used for trickshotting, and places on th map that can make you invincible and let you shoot everyone on the map.</p>
+                </div>
+				<div class="col-sm-4 event_animate_left">
+                    <iframe width="400" height="250" src="http://www.youtube.com/embed/Ed8h24oQiCA" frameborder="0" allowfullscreen></iframe>
+                </div>
+				
+				<div class="clearfix" style="padding-top:16.5em;"></div>
+                <div class="col-sm-4 event_animate_left">
+                    <img src="./images/BBOG.jpg" alt="Blog Post 1" class="img-responsive" />
+                </div>
+                <div class="col-sm-8 blog_text event_animate_right">
+                    <h1>Best Gun in Black Ops</h1>
+                    <p>Most people agree that the AK47u is the best gun in Black Ops since it is highly effective at short and medium ranges. The AK47u has very little recoil, meaning that it is very easy to aim this weapn, and therefore more of your shots will hit your target, which means you can kill your enemies faster than they can kill you. Snipers may kill faster, especially at longer ranges, but they are very slow and difficult to aim, and can only be used effectively by people who spend months practising the art of using a sinper in Call of Duty games. For all normal people, using this gun will be much easier, and you will have a permanent advantage over all of your eneimes if you are using this gun, and they are using something else.</p>
+                </div>
+				
+				<div class="clearfix"></div>
+				<div class="col-sm-8 blog_text event_animate_right">
+                    <h1>Learn From the Best</h1>
+                    <p>There are many great Call of Duty Players who post their gameplays and highlights on YouTube for you to watch. The one to the right is a perfect team deathmatch gameplay by Ali-A, one of the best players of Call of Duty ever. By watching a few videos of players who are much better than you, you can learn from them, and watch what they do differently than you, and you can adapt the way you play. These commentators also often post videos with helpful tips and tricks, so that you can learn exactly what they believe can help make you a better player.</p>
+                </div>
+				<div class="col-sm-4 event_animate_left">
+                    <iframe width="400" height="250" src="http://www.youtube.com/embed/EDqFUaMamfQ" frameborder="0" allowfullscreen></iframe>
+                </div>
+            </div>
+        </div>
+    </div><!--
+    <div id="templatemo_contact" class="container_wapper">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12 section_header">
+                    <h1>Contact</h1>
+                </div>
+                <div class="col-md-6 col-md-offset-3 col-md-offset-3">
+                    <p>Feel free to send us a message regarding this <a href="http://www.tooplate.com">website template</a>. Pellentesque pulvinar, orci vel scelerisque suscipit, libero justo laoreet felis, ac consectetur est nisi quis ligula. Maecenas nec felis elit.</p>
+                </div>
+                <div id="templatemo_contact_map_wapper">
+                    <div id="templatemo_contact_map"></div>
+                </div>
+                <form action="#" method="post">
+                    <div class="col-md-4">
+                        <p>Your Name</p>
+                        <input type="text" name="name" id="name" placeholder="Full Name" />
+                    </div>
+                    <div class="col-md-4">
+                        <p>Your Email</p>
+                        <input type="text" name="email" id="email" placeholder="Your Email" />
+                    </div>
+                    <div class="col-md-4">
+                        <p>Subject</p>
+                        <input type="text" name="subject" id="subject" placeholder="Subject" />
+                    </div>
+                    <div class="col-xs-12">
+                        <p>Message</p>
+                        <textarea name="message" id="message" placeholder="Your message..." ></textarea>
+                    </div>
+                    <div class="col-md-4 col-xs-8">
+                        <button>Send Message</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>-->
+    <div id="templatemo_footer" class="container_wapper">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12">
+                    <p>Copyright © 2084 Company Name - <a href="http://www.templatemo.com">HTML5 Template</a> by <a href="http://www.templatemo.com/preview/templatemo_404_reactive">Reactive</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.easing.1.3.js"></script>
+    <script src="js/jquery.mobile.customized.min.js"></script>
+    <script src="js/camera.min.js"></script>
+    <script src="js/jquery.singlePageNav.min.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&amp;sensor=false"></script>
+    <script src="js/templatemo_script.js"></script>
+  </body>
+</html>
